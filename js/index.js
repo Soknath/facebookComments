@@ -18,7 +18,7 @@ window.shared = {
       autoRefresh: true,
       flipHorizontal: false,
       flipVertical: false,
-      refreshInterval: 10000,
+      refreshInterval: 30000,
       textMode: false,
       zoom: 1
     },
