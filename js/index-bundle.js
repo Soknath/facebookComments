@@ -244,7 +244,7 @@
 	
 	// Initialize Facebook SDK
 	FB.init({
-	  appId: ("2383200378559638"), // App ID comes from environment at *build* time.  See README.md and webpack.config.js.
+	  appId: ("354345512175536"), // App ID comes from environment at *build* time.  See README.md and webpack.config.js.
 	  version: 'v2.12',
 	  status: true
 	});
@@ -333,7 +333,7 @@
 	  if (connectedWithFacebook) {
 	    // If we're logged in, show possible posts to choose from
 	    document.querySelector('[data-page-name="choosePost"]').style.display = 'block';
-	    loadPosts();
+	    // loadPosts();
 	  } else {
 	    // If we're not logged in, show the login button
 	    document.querySelector('[data-page-name="login"]').style.display = 'block';
