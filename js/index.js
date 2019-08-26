@@ -326,7 +326,7 @@ window.addEventListener('hashchange', () => {
   if (connectedWithFacebook) {
     // If we're logged in, show possible posts to choose from
     document.querySelector('[data-page-name="choosePost"]').style.display = 'block';
-    loadPosts();
+    // loadPosts();
   } else {
     // If we're not logged in, show the login button
     document.querySelector('[data-page-name="login"]').style.display = 'block';
