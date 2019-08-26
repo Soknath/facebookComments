@@ -76,7 +76,7 @@
 	    autoRefresh: true,
 	    flipHorizontal: false,
 	    flipVertical: false,
-	    refreshInterval: 30000,
+	    refreshInterval: 60000,
 	    textMode: false,
 	    zoom: 1
 	  }, JSON.parse(localStorage.config || '{}')),
